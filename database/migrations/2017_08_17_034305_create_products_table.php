@@ -21,7 +21,7 @@ class CreateProductsTable extends Migration
             $table->string('type');
             $table->string('brand');
             $table->text('description');
-            $table->boolean('aboveground');
+            $table->boolean('aboveground')->default(false);
         });
     }
 

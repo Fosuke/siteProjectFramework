@@ -37,6 +37,8 @@ class ProductsUpdaterCommand extends Command
      */
     public function handle()
     {
-        //
+        foreach(\PoolSupplyWorld::index() as $product){
+            $this->call('ProductUpdater',['product_id'=>$product]);
+        }
     }
 }
