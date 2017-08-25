@@ -13,8 +13,13 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-
+    <!-- Custom styles for this template 
+    <style type="text/css">
+      .carousel-inner > .item > img {
+        margin: 0 auto;
+      }
+    </style>
+    -->
   </head>
 
 

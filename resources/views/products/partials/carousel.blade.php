@@ -6,14 +6,14 @@
     </li>
     @endfor
   </ol>
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner">
     @foreach($product->productImages as $image)
     @if ($loop->first)
     <div class="carousel-item active">
     @else
     <div class="carousel-item">
     @endif
-      <img class="d-block img-fluid" src="{{$image->url}}" alt="{{$image->url}}">
+      <img class="d-block mx-auto img-fluid " src="{{$image->url}}" alt="{{$image->url}}">
     </div>
     @endforeach
   </div>
