@@ -2,7 +2,7 @@
   <ol class="carousel-indicators">
     @for ($i = 0; $i < $product->productImages->count(); $i++)
     <li data-target="#carousel" data-slide-to="{{$i}}" @if ($i == 0) class="active"@endif>
-      <img class="d-block img-fluid" src="{{$product->productImages[$i]->url}}" alt="{{$i}}">
+      <img class="d-block img-fluid" src="{{$product->productImages[$i]->url}}?54x54" alt="{{$i}}">
     </li>
     @endfor
   </ol>
